@@ -263,7 +263,7 @@ class UnverifiedBlockConsumer implements Runnable {
         this.inputKeyPair = inputKeyPair;
     }
 
-    //takes a bock from the queue one by one and sees if it's already in the chain
+    //takes a block from the queue one by one and sees if it's already in the chain
     //if it's already in the chain, skip that block. Otherwise, process it and add it to the chain
     public void run() {
         String data;
